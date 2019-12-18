@@ -1,2 +1,5 @@
 tiktok_scraper/__pycache__
 **/*.swo
+build
+dist
+tiktok_scraper.egg-info
