@@ -11,7 +11,7 @@ def get_chromedriver(driver_location, show_browser=False, has_driver=False):
     chrome_options.add_argument("--headless")
   if has_driver:
     return webdriver.Chrome(options=chrome_options)
-  else
+  else:
     return webdriver.Chrome(driver_location, options=chrome_options)
 
 def main(driver_location="./chromedriver", driver=None, has_driver=False):
