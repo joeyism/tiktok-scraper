@@ -34,12 +34,14 @@ optional arguments:
 ```
 
 ### OPTIONS
-**--driver**        Location of the driver (i.e. ./chromedriver). If not specified, it checks in `$PATH` first, and if it's not in there, a chromedriver is downloaded locally
+```
+--driver        Location of the driver (i.e. ./chromedriver). If not specified, it checks in `$PATH` first, and if it's not in there, a chromedriver is downloaded locally
 
-**--driver-type**   Type of driver (i.e. Chrome, Firefox)
+--driver-type   Type of driver (i.e. Chrome, Firefox)
 
-**--show-browser**  If set, the scraping is done with showing the browser. This is useful for debugging why sometime scraping may fail
+--show-browser  If set, the scraping is done with showing the browser. This is useful for debugging why sometime scraping may fail
 
-**--delay**         The number of seconds to delay between video downloading. This may be important if there's a rate limit
+--delay         The number of seconds to delay between video downloading. This may be important if there's a rate limit
 
-**--location**      Location of where the videos are downloaded. If not specified, location is the same as the username 
+--location      Location of where the videos are downloaded. If not specified, location is the same as the username 
+```
