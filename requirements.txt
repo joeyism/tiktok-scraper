@@ -2,3 +2,4 @@ autochromedriver
 selenium
 requests
 beautifulsoup4
+tqdm
