@@ -1,0 +1,4 @@
+autochromedriver
+selenium
+requests
+beautifulsoup4
