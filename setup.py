@@ -28,6 +28,6 @@ setup(
         url = 'https://github.com/joeyism/tiktok-scraper', # use the URL to the github repo
         download_url = 'https://github.com/joeyism/tiktok-scraper/archive/{}.tar.gz'.format(version),
         keywords = ['tik', 'tok', 'tiktok', 'scraper', 'download', 'video'], 
-        install_requires = [package[:-2] for package in open("requirements.txt", "r").readlines()],
+        install_requires = [package.split("\n")[0] for package in open("requirements.txt", "r").readlines()],
         classifiers = [],
         )
